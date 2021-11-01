@@ -1,0 +1,2 @@
+ A=50h
+ MOV AH, BYTE PTR A 

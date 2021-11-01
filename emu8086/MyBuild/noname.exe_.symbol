@@ -1,0 +1,24 @@
+< THE SYMBOL TABLE >  noname.exe_  --  emu8086 assembler version: 4.08 
+===================================================================================================
+Name                     	Offset    	Size      	Type      	Segment   
+===================================================================================================
+STACK                    	00000     	-5        	SEGMENT   	(ITSELF)  
+DATA                     	00010     	-5        	SEGMENT   	(ITSELF)  
+MSG1                     	00000     	1         	VAR       	data      
+MSG2                     	0001C     	1         	VAR       	data      
+END1                     	00039     	1         	VAR       	data      
+CODE                     	00017     	-5        	SEGMENT   	(ITSELF)  
+NHAP_NP                  	00005     	-1        	LABEL     	code      
+XUAT_CHUOI               	0001F     	-1        	NEAR      	code      
+NHAP_NHI_PHAN            	00026     	-1        	NEAR      	code      
+INPUT                    	0002F     	-1        	LABEL     	code      
+XULY                     	00044     	-1        	LABEL     	code      
+BREAK                    	00050     	-1        	LABEL     	code      
+XUAT_NHI_PHAN            	00053     	-1        	NEAR      	code      
+PRINT                    	0005B     	-1        	LABEL     	code      
+PRINT_ZERO               	00063     	-1        	LABEL     	code      
+THOAT_CHUONG_TRINH       	0006B     	-1        	NEAR      	code      
+===================================================================================================
+[ 11/26/2020  --  3:10:20 PM ] 
+< END >
+ 
